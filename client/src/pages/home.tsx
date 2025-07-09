@@ -74,7 +74,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-3xl text-love-red font-dancing font-bold"
             >
-              With all my love, always and forever ❤️
+              With all my love, always and forever ❤️(keep waiting for some special messages from me during the day)
             </motion.div>
           </div>
         </div>
