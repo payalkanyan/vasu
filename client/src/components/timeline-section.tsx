@@ -3,14 +3,14 @@ import TimelineItem from "./timeline-item";
 import dayWeMet from "@assets/day_we_met_1752061800128.jpeg";
 import firstDate from "@assets/first_date_1752061800128.jpeg";
 import loveU from "@assets/love_u_1752061800128.jpeg";
-import adventure from "@assets/adv_1752061800127.jpeg";
-import dance from "@assets/dance_1752061800128.jpeg";
-import cozy from "@assets/cozy_1752061800128.jpeg";
+import adventure from "@assets/adv_1752062633895.jpeg";
+import dance from "@assets/dance_1752062633895.jpeg";
+import cozy from "@assets/cozy_1752062633895.jpeg";
 import sweet from "@assets/sweet_1752061800128.jpeg";
 import laugh from "@assets/laugh_1752061800127.jpeg";
 import hand from "@assets/hand_1752061800127.jpeg";
-import forever from "@assets/forever_1752061800127.jpeg";
-import birthdaySpecial from "@assets/WhatsApp Image 2025-07-09 at 5.09.17 PM(2)_1752061800128.jpeg";
+import forever from "@assets/forever_1752062633895.jpeg";
+import birthdaySpecial from "@assets/WhatsApp Image 2025-07-09 at 5.29.11 PM(2)_1752062633895.jpeg";
 
 const TimelineSection = () => {
   const timelineData = [
