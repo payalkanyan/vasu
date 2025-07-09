@@ -96,7 +96,7 @@ const TimelineSection = () => {
   ];
 
   return (
-    <section className="py-16 bg-gradient-to-b from-love-bg to-white relative">
+    <section className="py-16 pt-24 bg-gradient-to-b from-love-bg to-white relative">
       <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}

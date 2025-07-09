@@ -11,10 +11,11 @@ export default function Home() {
     const handleScroll = () => {
       const heroHeight = window.innerHeight;
       const scrolled = window.pageYOffset;
-      setShowHeader(scrolled > heroHeight * 0.8);
+      setShowHeader(scrolled > heroHeight * 0.6);
     };
 
     window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Call once on mount
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -27,14 +28,17 @@ export default function Home() {
       
       {/* Fixed Header */}
       <motion.header
-        initial={{ y: -100 }}
-        animate={{ y: showHeader ? 0 : -100 }}
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ 
+          y: showHeader ? 0 : -100, 
+          opacity: showHeader ? 1 : 0 
+        }}
         transition={{ duration: 0.5 }}
-        className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm shadow-lg z-50"
+        className="fixed top-0 left-0 right-0 bg-love-bg/95 backdrop-blur-sm shadow-lg z-50 border-b-2 border-love-light"
       >
         <div className="container mx-auto px-4 py-4">
-          <h1 className="text-2xl font-bold text-love-red text-center font-dancing">
-            Happy Birthday My Love! 🎉
+          <h1 className="text-2xl md:text-3xl font-bold text-love-red text-center font-dancing">
+            Happy Birthday Vasu! 🎉❤️
           </h1>
         </div>
       </motion.header>
