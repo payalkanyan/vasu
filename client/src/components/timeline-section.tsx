@@ -44,7 +44,7 @@ const TimelineSection = () => {
     {
       id: 4,
       title: "Adventure Together",
-      content: "Every adventure with you is a treasure. From spontaneous road trips to quiet moments at home, you make every day an adventure. Thank you for being my perfect travel companion through life's beautiful journey.",
+      content: "Every adventure with you is a treasure. From spontaneous trips to quiet moments, you make every day an adventure. Thank you for being my perfect travel companion through life's beautiful journey.",
       emoji: "🗺️ Adventures await",
       imageUrl: adventure,
       imageAlt: "Our adventures",
@@ -62,7 +62,7 @@ const TimelineSection = () => {
     {
       id: 6,
       title: "Cozy Moments",
-      content: "The quiet moments we share are just as precious as the grand adventures. Cuddling on the couch, watching movies, or just talking about everything and nothing - these simple moments with you are my favorite kind of magic.",
+      content: "The quiet moments we share are just as precious as the grand adventures. Cuddling, watching movies, or just talking about everything and nothing - these simple moments with you are my favorite kind of magic.",
       emoji: "🏡 Home is with you",
       imageUrl: cozy,
       imageAlt: "Cozy moments",
