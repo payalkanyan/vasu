@@ -1,5 +1,16 @@
 import { motion } from "framer-motion";
 import TimelineItem from "./timeline-item";
+import dayWeMet from "@assets/day_we_met_1752061800128.jpeg";
+import firstDate from "@assets/first_date_1752061800128.jpeg";
+import loveU from "@assets/love_u_1752061800128.jpeg";
+import adventure from "@assets/adv_1752061800127.jpeg";
+import dance from "@assets/dance_1752061800128.jpeg";
+import cozy from "@assets/cozy_1752061800128.jpeg";
+import sweet from "@assets/sweet_1752061800128.jpeg";
+import laugh from "@assets/laugh_1752061800127.jpeg";
+import hand from "@assets/hand_1752061800127.jpeg";
+import forever from "@assets/forever_1752061800127.jpeg";
+import birthdaySpecial from "@assets/WhatsApp Image 2025-07-09 at 5.09.17 PM(2)_1752061800128.jpeg";
 
 const TimelineSection = () => {
   const timelineData = [
@@ -8,8 +19,8 @@ const TimelineSection = () => {
       title: "The Day We Met",
       content: "From the moment our eyes met, I knew there was something magical about you. Your smile lit up my world, and I couldn't imagine life without you in it. This is where our beautiful love story began, my darling.",
       emoji: "💕 Forever in my heart",
-      imageUrl: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
-      imageAlt: "Romantic couple moment",
+      imageUrl: dayWeMet,
+      imageAlt: "The day we met",
       isLeft: true
     },
     {
@@ -17,8 +28,8 @@ const TimelineSection = () => {
       title: "First Date Magic",
       content: "I was so nervous, but you made me feel so comfortable. We talked for hours, laughed until our stomachs hurt, and I knew I was falling for you. That night, I went home with butterflies and dreams of forever.",
       emoji: "🌟 Butterflies forever",
-      imageUrl: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
-      imageAlt: "Birthday celebration",
+      imageUrl: firstDate,
+      imageAlt: "Our first date",
       isLeft: false
     },
     {
@@ -26,8 +37,8 @@ const TimelineSection = () => {
       title: "Our First 'I Love You'",
       content: "Under the starlit sky, you whispered those three magical words that changed everything. My heart skipped a beat, and I knew that this was real, this was forever. I love you more than words can express, my sweet angel.",
       emoji: "💖 Love you to the moon",
-      imageUrl: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
-      imageAlt: "Romantic dinner",
+      imageUrl: loveU,
+      imageAlt: "First I love you",
       isLeft: true
     },
     {
@@ -35,8 +46,8 @@ const TimelineSection = () => {
       title: "Adventure Together",
       content: "Every adventure with you is a treasure. From spontaneous road trips to quiet moments at home, you make every day an adventure. Thank you for being my perfect travel companion through life's beautiful journey.",
       emoji: "🗺️ Adventures await",
-      imageUrl: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
-      imageAlt: "Couple with sparklers",
+      imageUrl: adventure,
+      imageAlt: "Our adventures",
       isLeft: false
     },
     {
@@ -44,8 +55,8 @@ const TimelineSection = () => {
       title: "Dancing in Love",
       content: "Dancing with you feels like floating on clouds. In your arms, I've found my safe haven, my home, my everything. Every dance is a celebration of our love, and I want to keep dancing with you forever.",
       emoji: "💃 Dance through life",
-      imageUrl: "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
-      imageAlt: "Couple dancing",
+      imageUrl: dance,
+      imageAlt: "Dancing together",
       isLeft: true
     },
     {
@@ -53,8 +64,8 @@ const TimelineSection = () => {
       title: "Cozy Moments",
       content: "The quiet moments we share are just as precious as the grand adventures. Cuddling on the couch, watching movies, or just talking about everything and nothing - these simple moments with you are my favorite kind of magic.",
       emoji: "🏡 Home is with you",
-      imageUrl: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
-      imageAlt: "Birthday cake",
+      imageUrl: cozy,
+      imageAlt: "Cozy moments",
       isLeft: false
     },
     {
@@ -62,8 +73,8 @@ const TimelineSection = () => {
       title: "Sweet Kisses",
       content: "Every kiss from you is like a promise of forever. Your lips against mine remind me that I'm exactly where I belong. Thank you for making every kiss feel like the first one, full of love and excitement.",
       emoji: "💋 Kiss me forever",
-      imageUrl: "https://images.unsplash.com/photo-1492681290082-e83ce93af3c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
-      imageAlt: "Couple kissing",
+      imageUrl: sweet,
+      imageAlt: "Sweet moments",
       isLeft: true
     },
     {
@@ -71,8 +82,8 @@ const TimelineSection = () => {
       title: "Laughter & Joy",
       content: "Your laughter is my favorite sound in the world. You have this incredible ability to make me smile even on my worst days. Thank you for filling my life with so much joy, laughter, and happiness, my sunshine.",
       emoji: "😂 Laughter is love",
-      imageUrl: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
-      imageAlt: "Birthday party",
+      imageUrl: laugh,
+      imageAlt: "Laughter and joy",
       isLeft: false
     },
     {
@@ -80,8 +91,8 @@ const TimelineSection = () => {
       title: "Hand in Hand",
       content: "Walking through life with you, hand in hand, is the greatest blessing. No matter where our path leads, I know we'll face it together. Your hand in mine makes me feel like I can conquer the world.",
       emoji: "🤝 Together always",
-      imageUrl: "https://images.unsplash.com/photo-1516589091380-5d8e87df6999?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
-      imageAlt: "Couple walking",
+      imageUrl: hand,
+      imageAlt: "Hand in hand",
       isLeft: true
     },
     {
@@ -89,9 +100,18 @@ const TimelineSection = () => {
       title: "Forever & Always",
       content: "Today we celebrate another year of your beautiful existence, but more importantly, we celebrate the love we share. You are my yesterday, my today, and my tomorrow. Happy Birthday, my love. Here's to many more years of love, laughter, and happiness together.",
       emoji: "♾️ Forever yours",
-      imageUrl: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800",
-      imageAlt: "Couple in sunset",
+      imageUrl: forever,
+      imageAlt: "Forever and always",
       isLeft: false
+    },
+    {
+      id: 11,
+      title: "Special Birthday Memory",
+      content: "This special moment captured perfectly shows how much joy you bring into my life. Every birthday with you is a celebration of not just another year, but another year of our beautiful love story together.",
+      emoji: "🎂 Birthday love",
+      imageUrl: birthdaySpecial,
+      imageAlt: "Special birthday moment",
+      isLeft: true
     }
   ];
 
